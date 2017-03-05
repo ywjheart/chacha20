@@ -19,8 +19,6 @@
 
 #include "stream_chacha20.h"
 
-#define crypto_stream_chacha20_KEYBYTES 32U
-
 #define LOAD32_LE(SRC) load32_le(SRC)
 static inline uint32_t
 load32_le(const uint8_t src[4])
